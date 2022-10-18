@@ -10,5 +10,5 @@
 
 ## 도커라이징 커맨드
 
-- 이미지 빌드 : `docker build . -t cinos81/dispatcher:1.0 --platform linux/amd64`
-- 컨테이너 실행 : `docker run -p 80:80 -p 8080:8080 -p 6006:6006 cinos81/dispatcher:1.0`
+- 이미지 빌드 : `docker build . -t cinos81/vue_dispatcher:1.0 --platform linux/amd64`
+- 컨테이너 실행 : `docker run -d --rm --name vue_dispatcher -p 80:80 -p 8080:8080 -p 6006:6006 cinos81/vue_dispatcher:latest`
